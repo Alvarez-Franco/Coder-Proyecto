@@ -1,0 +1,80 @@
+header{
+    border-bottom: solid 2px wheat;
+    margin-top: -2rem;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(31, 34, 37);
+}
+
+/*-----------------------------------------------------------*/
+
+.categorias-grilla{
+    padding: 4rem 0rem;
+    margin: 2rem 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.grid-1{
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+}
+.grid-1 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+.grid-2{
+    grid-column: 1/3;
+}
+.grid-2 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 80%;
+}
+.grid-3{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.grid-3 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+}
+.grid-4{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.grid-4 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+}
+
+.categorias-grilla ul{
+    margin: 1rem;
+    display: block;
+    padding: 5rem;
+    justify-content: center;
+    background-color: wheat;
+    border-radius: 2rem;
+}
+
+.categorias-grilla button{
+    align-items: end;
+    width: 100%;
+    color: aliceblue;
+    font-size:larger;
+    font-weight: bold;
+    background-color: coral;
+    padding: 0.5rem 1rem;
+    border: solid 1px rgb(184, 85, 19);
+    border-radius: 2rem;
+}
