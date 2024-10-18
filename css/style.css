@@ -57,7 +57,6 @@ body{
     background-color: rgb(31, 34, 37);
 }
 .banner {
-    display: flexbox;
     padding: 30% 1rem;
     background-image:url(banner.jpg);
     background-repeat: no-repeat;
