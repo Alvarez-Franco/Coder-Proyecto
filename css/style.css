@@ -59,7 +59,7 @@ body{
 .banner {
     display: flexbox;
     padding: 30% 1rem;
-    background-image: url(/media/banner.jpg);
+    background-image: url(media/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
