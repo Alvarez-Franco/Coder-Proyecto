@@ -58,7 +58,7 @@ body{
 }
 .banner {
     padding: 30% 1rem;
-    background-image:url(banner.jpg);
+    background-image:url(/media/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
